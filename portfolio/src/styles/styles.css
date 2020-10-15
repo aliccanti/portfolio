@@ -1,0 +1,71 @@
+.header-info {
+    width: 100%;
+    height: 2.3rem;
+
+    background-color: tomato;
+}
+
+.header-info img {
+    width: 30px;
+
+    margin: 2px 5px 0px 5px;
+}
+
+.header-info .btn-linkedin {
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+
+    color: #fff;
+    
+}
+.main-container {
+
+    width: 100%;
+    height: 100vh;
+    padding: 15px;
+
+    background-color: lightsalmon;
+}
+
+.dados-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.main-container .dados-container h1 {
+    color: #fff;
+    font-size: 2rem;
+
+    margin: 3rem 0 2rem 0;
+}
+
+.main-container .dados-container p {
+    font-size: 1.3rem;
+    margin-bottom: 2rem;
+}
+
+.main-container .dados-container .btn-curriculo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 200px;
+    height: 60px;
+    background-color: tomato;
+    border-radius: 10px;
+
+    margin: 0 auto;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+}
+
+.main-container .dados-container .btn-github {
+
+    font-size: 15px;
+    font-weight: 600;
+
+    text-decoration: none;
+    margin: 0 auto;
+    color: #fff;
+}
